@@ -1,8 +1,3 @@
-def above_5_5(movie):
-    if movie["imdb"] > 5.5:
-        return True
-    else:
-        return False
 movies = [
 {
 "name": "Usual Suspects",
@@ -80,3 +75,8 @@ movies = [
 "category": "Romance"
 }
 ]
+def above_5_5(movie):
+    if movie["imdb"] > 5.5:
+        return True
+    else:
+        return False
